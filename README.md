@@ -30,7 +30,7 @@ A **responsive and complete landing page** built with Django, JavaScript, and CS
 
 Clicking the WhatsApp floating button will open a chat with a predefined message like:
 
-> _"Hello! I'm interested in the Python course. Could you give me more details?"_
+> _"Hello! I'm interested in the DevPython course"
 
 This improves conversion and user engagement.
 
@@ -74,7 +74,7 @@ Uma **landing page completa e responsiva** feita com Django, JavaScript e CSS pa
 
 Ao clicar no botão flutuante do WhatsApp, o usuário é levado para uma conversa com uma mensagem automática como:
 
-> _"Olá! Tenho interesse no curso de Python. Pode me passar mais informações?"_
+> _"Olá! Tenho interesse no curso DevPython"_
 
 Isso ajuda a aumentar o engajamento e conversões.
 
