@@ -1,38 +1,85 @@
 #English
-Python Course Landing Page
- ==========================
- Project Overview---------------
-This is a complete and responsive landing page for a Python programming course. The
- project was developed with a strong focus on performance, clean code structure, and
- user experience. It features a professional design, WhatsApp integration with a
- pre-filled message, and a success page after form submission.
- Technologies Used------------------ Python (Django Framework)- HTML5 & CSS3- JavaScript- Django Templating System- WhatsApp API Integration
- Main Features-------------- Fully responsive layout- Contact form with redirection to a success page- WhatsApp floating button with a custom pre-programmed message- Organized static files and templates- Clean and semantic code- Easy to customize for other products or services
+
+# 🐍 Python Course Landing Page
+
+A **responsive and complete landing page** built with Django, JavaScript, and CSS to promote a Python programming course. Includes WhatsApp integration and a success page after user interaction.
+
+---
+
+## 🚀 Technologies
+
+- **Python** with **Django**
+- **HTML5**, **CSS3**, **JavaScript**
+- Django Template Engine
+- Static files and media organized
+- WhatsApp API integration
+
+---
+
+## 🎯 Features
+
+✅ Fully responsive layout  
+✅ WhatsApp floating button with a **custom message**  
+✅ Success page after form or CTA interaction  
+✅ Clean and modular code (HTML templates + static assets)  
+✅ Ready to adapt for other services or products  
+
+---
+
+## 💬 WhatsApp Integration
+
+Clicking the WhatsApp floating button will open a chat with a predefined message like:
+
+> _"Hello! I'm interested in the Python course. Could you give me more details?"_
+
+This improves conversion and user engagement.
+
+---
+
+## ✅ Success Page
+
+After filling out the form or clicking on the call-to-action, users are redirected to a **professional thank-you page** confirming the action.
+
+---
 
 
- WhatsApp Integration-------------------
-Users can click the floating WhatsApp button and be redirected to a pre-filled message
- like:
- "Hello! I'm interested in the Python course. Could you give me more details?"
- Success Page-----------
-After filling out the form or clicking the call-to-action, users are redirected to a clean
- and professional Success Page, confirming the submission or interaction.---------------------------------------
 
- #Português
-Página de Captura do Curso de Python
- ====================================
-Visão Geral do Projeto---------------------
-Esta é uma landing page completa e responsiva para um curso de programação em
- Python. O projeto foi desenvolvido com foco em performance, organização de código e
- experiência do usuário. Inclui um design profissional, integração com o WhatsApp
- (mensagem personalizada) e uma página de sucesso.
- Tecnologias Utilizadas----------------------- Python (Django Framework)- HTML5 & CSS3- JavaScript- Sistema de Templates do Django- Integração com API do WhatsApp
- Principais Funcionalidades---------------------------- Layout 100% responsivo- Formulário com redirecionamento para página de sucesso- Botão flutuante do WhatsApp com mensagem pré-programada- Organização clara dos arquivos estáticos e templates- Código limpo e semântico- Fácil de adaptar para outros cursos, produtos ou serviços
+# 🇧🇷 Página de Captura do Curso de Python
 
- Integração com WhatsApp-----------------------
-Usuários podem clicar no botão flutuante do WhatsApp e serão redirecionados com
- uma mensagem pré-definida como:
- "Olá! Tenho interesse no curso de Python. Pode me passar mais informações?"
- Página de Sucesso----------------
-Após preencher o formulário ou clicar no botão principal, o usuário é redirecionado para
- uma página de sucesso confirmando a ação
+Uma **landing page completa e responsiva** feita com Django, JavaScript e CSS para divulgar um curso de programação em Python. Possui integração com o WhatsApp e uma página de sucesso após a ação do usuário.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Python** com **Django**
+- **HTML5**, **CSS3**, **JavaScript**
+- Engine de Templates do Django
+- Organização de arquivos estáticos
+- Integração com API do WhatsApp
+
+---
+
+## 🎯 Funcionalidades
+
+✅ Layout totalmente responsivo  
+✅ Botão flutuante do WhatsApp com **mensagem personalizada**  
+✅ Redirecionamento para **página de sucesso**  
+✅ Código limpo e bem organizado (templates + estáticos)  
+✅ Fácil de adaptar para outros produtos ou serviços  
+
+---
+
+## 💬 Integração com WhatsApp
+
+Ao clicar no botão flutuante do WhatsApp, o usuário é levado para uma conversa com uma mensagem automática como:
+
+> _"Olá! Tenho interesse no curso de Python. Pode me passar mais informações?"_
+
+Isso ajuda a aumentar o engajamento e conversões.
+
+---
+
+## ✅ Página de Sucesso
+
+Após preencher o formulário ou clicar no botão principal, o usuário é redirecionado para uma **página de agradecimento** confirmando a ação.
