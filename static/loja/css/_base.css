@@ -1,0 +1,33 @@
+/* ===== BASE GLOBAL ===== */
+body {
+  font-family: var(--font-family-primary);
+  margin: 0;
+  background: var(--secondary-color); /* Fundo principal escuro */
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 16px;
+  overflow-x: hidden; /* Evita scroll horizontal */
+  scroll-behavior: smooth; /* Scroll suave */
+}
+
+h1, h2, h3 {
+  font-family: var(--font-family-secondary);
+  font-weight: 700;
+  color: var(--heading-color);
+  line-height: 1.2;
+}
+
+h1 { font-family: var(--font-hero); } /* Título principal com Poppins */
+
+p {
+    color: var(--light-text-color);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #00ff88; /* Um pouco mais claro no hover */
+}

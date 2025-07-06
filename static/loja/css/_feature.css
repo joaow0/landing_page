@@ -1,0 +1,77 @@
+.features {
+  background-color: var(--secondary-color); /* Fundo escuro */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 3rem; /* Grande como no vídeo */
+  margin-bottom: 15px;
+  letter-spacing: -1px;
+}
+.features .subtitle {
+    font-size: 1.3rem;
+    color: var(--light-text-color);
+    margin-bottom: 50px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Layout de grid responsivo */
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-item {
+    background-color: var(--light-bg); /* Fundo do card */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px var(--shadow-light);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--border-color); /* Borda sutil */
+}
+
+.feature-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px var(--shadow-medium);
+}
+
+.feature-item .icon-placeholder {
+    width: 60px;
+    height: 60px;
+    background-color: var(--primary-color); /* Placeholder para ícone */
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--secondary-color); /* Cor do ícone dentro do círculo */
+    /* Se usar Font Awesome: */
+    /* i { color: var(--secondary-color); } */
+}
+
+.feature-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: var(--heading-color);
+}
+
+.feature-item p {
+    font-size: 1rem;
+    color: var(--light-text-color);
+}
+
+
+/* No seu style.css */
+
+.feature-item .feature-image {
+    width: 100%; /* Isso garante que a imagem ocupe 100% da largura do seu container (o .feature-item) */
+    height: 180px; /* **Esta altura fixa é crucial.** Define a altura que todas as imagens terão. */
+    object-fit: cover; /* **Isso é muito importante.** Ele faz com que a imagem cubra todo o espaço disponível sem distorcer, cortando as partes extras se necessário. */
+    border-radius: 10px; /* Para as bordas arredondadas como no vídeo */
+    margin-bottom: 20px; /* Espaço entre a imagem e o texto */
+    display: block; /* Garante que 'width' e 'height' funcionem como esperado */
+}

@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #00e676; /* Um verde/ciano mais vibrante, quase neon */
+  --secondary-color: #1a1a2e; /* Fundo escuro principal */
+  --light-bg: #2b2b40; /* Fundo para seções claras no tema escuro (como o contador ou o formulário) */
+  --white-bg: #1a1a2e; /* Ainda o fundo escuro, pois não há seções brancas */
+  --text-color: #f0f0f0; /* Cor do texto principal (claro) */
+  --light-text-color: #b0b0b0; /* Cor para textos secundários e parágrafos */
+  --heading-color: #ffffff; /* Cor dos títulos (branco puro) */
+  --border-color: #3a3a5a; /* Cor para bordas sutis e divisores */
+  --shadow-light: rgba(0, 0, 0, 0.2); /* Sombra mais visível no tema escuro */
+  --shadow-medium: rgba(0, 0, 0, 0.4); /* Sombra forte no tema escuro */
+  --font-family-primary: 'Montserrat', sans-serif; /* Montserrat para o corpo */
+  --font-family-secondary: 'Montserrat', sans-serif; /* Montserrat para títulos secundários */
+  --font-hero: 'Poppins', sans-serif; /* Poppins para o título principal do hero */
+}

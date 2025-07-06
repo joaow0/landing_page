@@ -1,0 +1,11 @@
+{# loja/templates/loja/inscricao_sucesso.html #}
+{% extends 'loja/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="success-container">
+    <h1>Inscrição Realizada com Sucesso!</h1>
+    <p>Agradecemos o seu interesse no Curso DevPython. Em breve entraremos em contato com mais detalhes.</p>
+    <a href="{% url 'index' %}" class="btn">Voltar para a Homepage</a>
+</div>
+{% endblock %}

@@ -1,0 +1,38 @@
+/* ===== RODAPÉ ===== */
+.rodape {
+  background: var(--secondary-color);
+  color: var(--light-text-color);
+  text-align: center;
+  padding: 30px;
+  font-size: 0.95rem;
+  letter-spacing: 0.2px;
+  border-top: 1px solid var(--border-color);
+}
+
+.rodape a {
+    color: var(--light-text-color);
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+.rodape a:hover {
+    color: var(--primary-color);
+}
+.rodape p {
+    margin-top: 15px;
+    font-size: 0.85rem;
+    color: var(--light-text-color);
+}
+
+/* Redes sociais (se for usar Font Awesome) */
+.rodape .social-icons {
+    margin-bottom: 15px;
+}
+.rodape .social-icons a {
+    color: var(--light-text-color);
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.rodape .social-icons a:hover {
+    color: var(--primary-color);
+}

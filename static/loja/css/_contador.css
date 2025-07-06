@@ -1,0 +1,55 @@
+/* ===== CONTADOR (ESTILIZADO PARA O TEMA ESCURO) ===== */
+.contador {
+  background-color: var(--secondary-color); /* Mesma cor de fundo do hero para transição suave */
+  padding: 30px;
+  text-align: center;
+  color: white;
+  /* box-shadow: 0 4px 15px var(--shadow-medium); Não precisa se for parte do hero visualmente */
+}
+
+.contador h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: var(--heading-color);
+  font-weight: 600;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+#timer div {
+  background: var(--light-bg); /* Fundo mais claro para os boxes do contador */
+  color: var(--heading-color);
+  padding: 15px 20px;
+  border-radius: 12px;
+  min-width: 90px;
+  box-shadow: 0 4px 12px var(--shadow-medium);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+#timer div:hover {
+    transform: translateY(-5px);
+}
+
+#timer span {
+  font-size: 2.2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: var(--primary-color); /* Números em verde vibrante */
+}
+
+#timer small {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+}

@@ -1,0 +1,25 @@
+/* Utilitários */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.btn {
+  background: var(--primary-color);
+  padding: 16px 36px;
+  color: var(--secondary-color); /* Texto escuro no botão vibrante */
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px var(--shadow-medium);
+  display: inline-block; /* Para padding e margin funcionarem bem */
+}
+
+.btn:hover {
+  background-color: #00ff88; /* Ligeiramente mais claro */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px var(--shadow-medium);
+}

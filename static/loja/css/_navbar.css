@@ -1,0 +1,45 @@
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Mais padding para o nav */
+    background-color: rgba(26, 26, 46, 0.8); /* Fundo ligeiramente transparente */
+    position: absolute; /* Para ficar sobre o hero */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-sizing: border-box; /* Garante que padding não aumente a largura */
+}
+
+.navbar .logo {
+    font-family: var(--font-hero);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+
+.navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .nav-links a {
+    color: var(--light-text-color);
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: var(--primary-color);
+}
+
+.navbar .nav-links .fa-user-circle {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}

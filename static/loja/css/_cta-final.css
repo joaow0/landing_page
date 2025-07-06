@@ -1,0 +1,41 @@
+/* ===== CTA FINAL ===== */
+.cta-final {
+    background: linear-gradient(rgba(0, 200, 150, 0.9), rgba(0, 200, 150, 0.9)), url("../../static/imagens/img.avif") no-repeat center center/cover;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    box-shadow: inset 0 5px 20px rgba(0,0,0,0.1);
+}
+.cta-final h2 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+.cta-final p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+.cta-final .btn {
+    background: white;
+    color: var(--primary-color);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.cta-final .btn:hover {
+    background-color: var(--light-bg);
+    color: var(--primary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+    .cta-final h2 {
+        font-size: 2.2rem;
+    }
+    .cta-final p {
+        font-size: 1.1rem;
+    }
+}

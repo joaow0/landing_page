@@ -1,0 +1,33 @@
+{% load static %}
+<section class="depoimentos">
+    <h2>O que os alunos estão dizendo</h2>
+
+    <div class="carousel">
+        <div class="slide active">
+            <p>"Com o Curso DevPython, consegui aprender Python de forma eficiente e prática, o que me ajudou a conseguir meu primeiro emprego na área de tecnologia."</p>
+            <div class="author-info">
+                <img src="{% static 'loja/imagens/imgf.jpg' %}" alt="Avatar de Addison Williams" class="avatar"> {# Crie essa imagem #}
+                <span>Addison Williams</span>
+            </div>
+        </div>
+        <div class="slide">
+            <p>"Simplesmente incrível. Comecei do zero e hoje já crio projetos completos!"</p>
+            <div class="author-info">
+                <img src="{% static 'loja/imagens/imge.jpg' %}" alt="Avatar de Carlos Henrique" class="avatar"> {# Crie essa imagem #}
+                <span>Carlos Henrique</span>
+            </div>
+        </div>
+        <div class="slide">
+            <p>"Gostei muito da abordagem prática. Recomendo a todos que querem entrar na área."</p>
+            <div class="author-info">
+                <img src="{% static 'loja/imagens/imgg.jpg' %}" alt="Avatar de Marina Oliveira" class="avatar"> {# Crie essa imagem #}
+                <span>Marina Oliveira</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel-controls">
+        <button id="prev">‹</button>
+        <button id="next">›</button>
+    </div>
+</section>

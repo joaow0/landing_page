@@ -1,0 +1,38 @@
+   /* Estilos básicos para a página de sucesso */
+    .success-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh; /* Altura mínima para centralizar */
+        text-align: center;
+        padding: 50px 20px;
+        background-color: var(--background-color); /* Usar sua variável de cor */
+        color: var(--text-color);
+    }
+
+    .success-container h1 {
+        font-size: 3rem;
+        color: var(--primary-color); /* Cor verde */
+        margin-bottom: 20px;
+    }
+
+    .success-container p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        max-width: 600px;
+    }
+
+    .success-container .btn {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 12px 25px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+    }
+
+    .success-container .btn:hover {
+        background-color: var(--hover-color); /* Ou uma cor mais escura */
+    }

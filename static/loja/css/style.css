@@ -1,0 +1,20 @@
+/* Importa todos os outros arquivos CSS */
+@import url('_variables.css');
+@import url('_base.css');
+@import url('_hero.css');
+@import url('_contador.css');
+@import url('_feature.css');
+@import url('_depoimentos.css');
+@import url('_formulario.css');
+@import url('_messages.css');
+@import url('_footer.css');
+/* Adicione estas linhas SOMENTE se você incluiu as seções FAQ e CTA Final no seu HTML */
+@import url('_faq.css');
+@import url('_cta-final.css');
+/* As media queries devem vir por último para que as regras de responsividade se sobreponham corretamente */
+@import url('_responsive.css');
+@import url('_utilitarios.css');
+@import url('_navbar.css');
+@import url('_rodape.css');
+@import url('_wpp.css');
+@import url('_pagina_sucesso.css');

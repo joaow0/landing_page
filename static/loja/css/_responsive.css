@@ -1,0 +1,173 @@
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+    .hero p {
+        font-size: 1.2rem;
+    }
+    .features h2, .depoimentos h2, .formulario h2, .call-to-action-final h2 {
+        font-size: 2.8rem;
+    }
+    .carousel {
+        padding: 40px;
+    }
+    .slide p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+        position: relative; /* Pode ser melhor para mobile, ou manter fixed se for mais simples */
+        background-color: var(--secondary-color);
+    }
+    .navbar .nav-links {
+        margin-top: 15px;
+        gap: 20px;
+    }
+    .hero {
+        padding: 120px 20px 80px; /* Ajuste para navbar */
+        min-height: 80vh;
+    }
+    .hero h1 {
+        font-size: 2.8rem;
+        letter-spacing: -1px;
+    }
+    .hero p {
+        font-size: 1.1rem;
+    }
+    .hero-info-badges {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .contador h2 {
+        font-size: 1.5rem;
+    }
+    #timer div {
+        min-width: 70px;
+        padding: 12px 15px;
+    }
+    #timer span {
+        font-size: 2rem;
+    }
+    .features h2 {
+        font-size: 2.2rem;
+    }
+    .features .subtitle {
+        font-size: 1.1rem;
+    }
+    .feature-item {
+        padding: 25px;
+    }
+    .feature-item h3 {
+        font-size: 1.6rem;
+    }
+    .depoimentos h2 {
+        font-size: 2.2rem;
+    }
+    .carousel {
+        padding: 30px;
+    }
+    .slide p {
+        font-size: 1.2rem;
+    }
+    .call-to-action-final h2 {
+        font-size: 2.5rem;
+    }
+    .call-to-action-final p {
+        font-size: 1.1rem;
+    }
+    .formulario h2 {
+        font-size: 2.2rem;
+    }
+    .form-group input, .form-group textarea {
+        font-size: 0.95rem;
+        padding: 12px 15px;
+    }
+    form button {
+        font-size: 1.05rem;
+        padding: 14px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 15px;
+    }
+    .navbar .logo {
+        font-size: 1.5rem;
+    }
+    .navbar .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero {
+        padding: 100px 15px 60px;
+    }
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .hero .btn {
+        padding: 12px 28px;
+        font-size: 1rem;
+    }
+    .contador h2 {
+        font-size: 1.3rem;
+    }
+    #timer div {
+        min-width: 60px;
+        padding: 10px;
+    }
+    #timer span {
+        font-size: 1.8rem;
+    }
+    #timer small {
+        font-size: 0.75rem;
+    }
+    .features h2, .depoimentos h2, .formulario h2, .call-to-action-final h2 {
+        font-size: 1.8rem;
+    }
+    .features .subtitle {
+        font-size: 1rem;
+    }
+    .feature-item {
+        padding: 20px;
+    }
+    .feature-item h3 {
+        font-size: 1.4rem;
+    }
+    .slide p {
+        font-size: 1.1rem;
+    }
+    .author-info .avatar {
+        width: 50px;
+        height: 50px;
+    }
+    .author-info span {
+        font-size: 1rem;
+    }
+    .carousel {
+        padding: 20px;
+    }
+    .carousel-controls button {
+        font-size: 1.8rem;
+        padding: 8px 16px;
+    }
+    .call-to-action-final p {
+        font-size: 1rem;
+    }
+    .rodape {
+        padding: 20px 15px;
+    }
+    .rodape .social-icons a {
+        font-size: 1.3rem;
+    }
+    .rodape p {
+        font-size: 0.75rem;
+    }
+}

@@ -1,0 +1,76 @@
+/* ===== FORMULÁRIO (Se mantiver o formulário separado) ===== */
+.formulario {
+  background-color: var(--light-bg); /* Fundo do formulário */
+  padding: 80px 20px;
+  text-align: center;
+  border-top: 1px solid var(--border-color);
+}
+
+.formulario h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: var(--heading-color);
+}
+
+.form-group {
+  margin-bottom: 25px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: var(--heading-color);
+  font-size: 1.05rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 1.05rem;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--secondary-color); /* Fundo do input mais escuro */
+  color: var(--text-color);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(0, 230, 118, 0.3); /* Sombra de foco colorida */
+  outline: none;
+}
+
+.error {
+  color: #ff6347; /* Um vermelho mais vibrante para erros */
+  font-weight: 700;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+form button {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: 16px 36px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px var(--shadow-medium);
+}
+
+form button:hover {
+  background-color: #00ff88;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px var(--shadow-medium);
+}
